@@ -1,0 +1,227 @@
+nav {
+    padding: 0 50px;
+    border-bottom: 1px solid #eee;
+}
+nav .navbar-brand img{
+    width: 200px;
+}
+.navbar-expand-lg .navbar-nav{
+    margin-right: 0 !important;
+    margin-left: auto;
+}
+nav ul{
+    padding-right: 20px;
+}
+nav ul li{
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+nav ul ul li{
+    margin-left: 0 !important;
+}
+nav ul li.bars i{
+    margin-top: 8px;
+    font-size: 22px;
+}
+.welcom{
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 85vh;
+    background-image: linear-gradient(271deg, #f2babb 43% 34%, #e9d2c2 70% 0%);
+}
+.welcom .title{
+    padding-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.welcom .title h1{
+    font-size: 75px;
+}
+.welcom .title a{
+    width: 170px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 15px;
+}
+.welcom .image{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 450px;
+    height: 450px;
+    /* background-color: #e7f0f0; */
+    background-image: 
+    linear-gradient(179deg, #f4d6d8 20% 20%, #d9f2ef 106% 106%)
+  ;
+    background-position: bottom;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.welcom .image img{
+    width: 250px;
+}
+.fixd{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.fixd ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.fixd ul li{
+    margin: 10px ;
+}
+.fixd ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+}
+.ser-section{
+    margin: 130px 0;
+}
+.servis span{
+    font-size: 16px;
+    color: #aaa;
+}
+.servis h2{
+    font-size: 38px;
+}
+.servis a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    transition: all ease .2s;
+}
+.servis .item{
+    margin: 25px 0;
+}
+.servis .item i{
+    font-size: 17px;
+    margin:  auto 5px;
+}
+.servis a:hover{
+    color: #f9b3b2;
+}
+.servis a h3{
+    font-size: 20px !important;
+}
+
+
+.team{
+    margin-top: 100px;
+}
+.team a{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    transition: all ease .2s;
+}
+.team p{
+    font-size: 16px;
+    color: #777;
+}
+.team .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team .title span{
+    font-size: 16px;
+    color: #aaa;
+}
+.team .title h2{
+    font-size: 29px;
+}
+.team .card{
+    width: 90% !important;
+    transition: all linear .2s;
+    margin: 30px auto;
+    border: none;
+    border-radius: 0;
+}
+.team .card h5{
+    transition: all ease .2s;
+}
+.team .card:hover h5{
+    color:#f88987;
+}
+.solution .card-body{
+    padding: 35px;
+}
+.team .card-body{
+    padding: 20px 0;
+}
+.team-zom{
+    position: relative;
+}
+.team-zom .sochial{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.award{
+    margin: 100px 0;
+}
+.award .title{
+    margin: 50px 0;
+}
+.award .title span{
+    font-size: 16px;
+    color: #aaa;
+}
+.award .title h2{
+    font-size: 44px;
+}
+.award .resip{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1.5px solid #000;
+    padding: 15px 0;
+    margin-bottom: 65px;
+}
+.award .resip .yare{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.award .resip .yare h3{
+    font-size: 24px;
+}
+.award .image{
+    width: 100%;
+}
+.award .image img{
+    width: 100%;
+}
+.award .col-xl-7{
+    padding: 0;
+}
+.award .col-xl-5{
+    padding: 0;
+}
+footer{
+    text-align: center;
+    padding: 15px 0;
+    background-color: #F5F5F5;
+}
+footer p{
+    color: #606060;
+    font-size: 17px;
+}
+footer p a{
+    text-decoration: none;
+    color: #000 !important;
+}
